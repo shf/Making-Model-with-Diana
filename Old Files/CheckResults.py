@@ -1,0 +1,11 @@
+import os
+importModel( "C:/Users/ShayanFa/Documents/Model the structure/My Model/Allfiles/GeneratedModels-Modified/Model-xDisBottomPlate70-xMidDisPlate30/Model-xDisBottomPlate70-xMidDisPlate30-modified_A.dat", "" )
+addAnalysis( "Analysis1" )
+loadResults( "Analysis1", "C:/Users/ShayanFa/Documents/Model the structure/My Model/Allfiles/GeneratedModels-Modified/Model-xDisBottomPlate70-xMidDisPlate30/MODEL-XDISBOTTOMPLATE70-XMIDDISPLATE30-MODIFIED_MLOAD.dnb" )
+showView( "RESULT" )
+setResultPlot( "contours", "Total Strains/node", "E1" )
+setResultCase( "Analysis1/Output-MLoad/MechanicalLoad, Load-step 41, Load-factor 0.28000" )
+setViewSettingValue( "result view setting", "CONTOU/AUTRNG", "LIMITS" )
+setViewSettingValue( "result view setting", "CONTOU/LIMITS/MAXVAL", 0.001 )
+setViewPoint( "FRONT" )
+writeToPng( "C:/Users/ShayanFa/Documents/Model the structure/My Model/Allfiles/GeneratedModels-Modified/Model-xDisBottomPlate70-xMidDisPlate30/1.png", 1318, 708 )
