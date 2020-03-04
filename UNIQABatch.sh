@@ -14,7 +14,7 @@
 ### Mail on abort,begin and end
 #SBATCH --mail-type=all
 ### Set your mail address
-#SBATCH --mail-user fahimi@chalmers.se
+#SBATCH --mail-user "your-email"
 
 ### Insert estimated time here!
 ### Format is hh:mm:ss
