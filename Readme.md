@@ -12,4 +12,7 @@ The project is an extension of my presentation in the 2nd Nordic mini-seminar on
 
  `runOnCluster.py` and `UNIQABatch.sh` was used to run the model on [C3SE clusters](https://www.c3se.chalmers.se/).
 
+`MakeModels` includes scripts to make models automatically in Diana FEA.
+`MakeGifAnimation` includes scripts to make an animation from the results of an analysis. [More information](https://www.youtube.com/watch?v=hIOJr6EWoNg)
+
  
